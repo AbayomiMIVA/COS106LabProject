@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+
+    <!-- Page Title -->
+    <title>Academic Planner | My Academic Portfolio</title>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="image/abayomi.jpg" />
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">My Academic Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="academic-planner.html" class="nav-link active">Academic Planner</a></li>
+                <li><a href="contact.html" class="btn" style="margin-left: 0.5rem;">Get In Touch</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-title-center">
+            <h1>Interactive Academic Planner</h1>
+            <p>Manage academic tasks and to-do list in real time.</p>
+        </div>
+
+        <div class="planner-workspace">
+            <div class="planner-input-bar">
+                <input type="text" id="taskInput" class="planner-input" placeholder="Enter intending task & click [ADD Task]" >
+                <button id="addTaskBtn" class="btn">Add Task</button>
+            </div>
+
+            <!-- Task Insertion point via planner script -->
+            <ul id="taskContainer" class="task-container-list"></ul>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Abayomi Academic Portfolio & Student Management Portal.
+    </footer>
+
+    <script src="js/academic-planner.js"></script>
+</body>
+</html>
